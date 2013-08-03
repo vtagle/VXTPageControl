@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class VTPageControl;
+
+@interface ViewController : UIViewController <UIScrollViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UIScrollView* scrollView;
+@property (nonatomic, weak) IBOutlet VTPageControl* pageControl;
+@property (nonatomic, strong) IBOutlet UIView* contentsView;
 
 @end

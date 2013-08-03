@@ -18,6 +18,11 @@
 		CC64342C17A9E8BA00E995B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64342B17A9E8BA00E995B3 /* Default-568h@2x.png */; };
 		CC64342F17A9E8BA00E995B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC64342E17A9E8BA00E995B3 /* ViewController.m */; };
 		CC64343217A9E8BA00E995B3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC64343017A9E8BA00E995B3 /* ViewController.xib */; };
+		CC64343F17AA183C00E995B3 /* page_active.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64343B17AA183C00E995B3 /* page_active.png */; };
+		CC64344017AA183C00E995B3 /* page_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64343C17AA183C00E995B3 /* page_active@2x.png */; };
+		CC64344117AA183C00E995B3 /* page_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64343D17AA183C00E995B3 /* page_inactive.png */; };
+		CC64344217AA183C00E995B3 /* page_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64343E17AA183C00E995B3 /* page_inactive@2x.png */; };
+		CC64344517AA1E5D00E995B3 /* VTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC64344417AA1E5D00E995B3 /* VTPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		CC64342D17A9E8BA00E995B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CC64342E17A9E8BA00E995B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC64343117A9E8BA00E995B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CC64343B17AA183C00E995B3 /* page_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_active.png; sourceTree = "<group>"; };
+		CC64343C17AA183C00E995B3 /* page_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_active@2x.png"; sourceTree = "<group>"; };
+		CC64343D17AA183C00E995B3 /* page_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_inactive.png; sourceTree = "<group>"; };
+		CC64343E17AA183C00E995B3 /* page_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_inactive@2x.png"; sourceTree = "<group>"; };
+		CC64344317AA1E5D00E995B3 /* VTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPageControl.h; sourceTree = "<group>"; };
+		CC64344417AA1E5D00E995B3 /* VTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,8 @@
 		CC64340917A9E8BA00E995B3 = {
 			isa = PBXGroup;
 			children = (
+				CC64344317AA1E5D00E995B3 /* VTPageControl.h */,
+				CC64344417AA1E5D00E995B3 /* VTPageControl.m */,
 				CC64341B17A9E8BA00E995B3 /* VTPageController Demo */,
 				CC64341417A9E8BA00E995B3 /* Frameworks */,
 				CC64341317A9E8BA00E995B3 /* Products */,
@@ -88,6 +101,10 @@
 				CC64342D17A9E8BA00E995B3 /* ViewController.h */,
 				CC64342E17A9E8BA00E995B3 /* ViewController.m */,
 				CC64343017A9E8BA00E995B3 /* ViewController.xib */,
+				CC64343B17AA183C00E995B3 /* page_active.png */,
+				CC64343C17AA183C00E995B3 /* page_active@2x.png */,
+				CC64343D17AA183C00E995B3 /* page_inactive.png */,
+				CC64343E17AA183C00E995B3 /* page_inactive@2x.png */,
 				CC64341C17A9E8BA00E995B3 /* Supporting Files */,
 			);
 			path = "VTPageController Demo";
@@ -163,6 +180,10 @@
 				CC64342A17A9E8BA00E995B3 /* Default@2x.png in Resources */,
 				CC64342C17A9E8BA00E995B3 /* Default-568h@2x.png in Resources */,
 				CC64343217A9E8BA00E995B3 /* ViewController.xib in Resources */,
+				CC64343F17AA183C00E995B3 /* page_active.png in Resources */,
+				CC64344017AA183C00E995B3 /* page_active@2x.png in Resources */,
+				CC64344117AA183C00E995B3 /* page_inactive.png in Resources */,
+				CC64344217AA183C00E995B3 /* page_inactive@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +197,7 @@
 				CC64342217A9E8BA00E995B3 /* main.m in Sources */,
 				CC64342617A9E8BA00E995B3 /* AppDelegate.m in Sources */,
 				CC64342F17A9E8BA00E995B3 /* ViewController.m in Sources */,
+				CC64344517AA1E5D00E995B3 /* VTPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +320,7 @@
 				CC64343717A9E8BA00E995B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
