@@ -6,9 +6,9 @@
 //  Copyright 2013 Vince Tagle. All rights reserved.
 //
 
-#import "VTPageControl.h"
+#import "VXTPageControl.h"
 
-@implementation VTPageControl
+@implementation VXTPageControl
 
 - (id)init
 {

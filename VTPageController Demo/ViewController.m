@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "VTPageControl.h"
+#import "VXTPageControl.h"
 
 @interface ViewController ()
 

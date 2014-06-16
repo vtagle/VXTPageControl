@@ -22,18 +22,18 @@
 		CC64344017AA183C00E995B3 /* page_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64343C17AA183C00E995B3 /* page_active@2x.png */; };
 		CC64344117AA183C00E995B3 /* page_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64343D17AA183C00E995B3 /* page_inactive.png */; };
 		CC64344217AA183C00E995B3 /* page_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC64343E17AA183C00E995B3 /* page_inactive@2x.png */; };
-		CC64344517AA1E5D00E995B3 /* VTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC64344417AA1E5D00E995B3 /* VTPageControl.m */; };
+		CC64344517AA1E5D00E995B3 /* VXTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC64344417AA1E5D00E995B3 /* VXTPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC64341217A9E8BA00E995B3 /* VTPageController Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VTPageController Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC64341217A9E8BA00E995B3 /* VXTPageController Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VXTPageController Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC64341517A9E8BA00E995B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CC64341717A9E8BA00E995B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC64341917A9E8BA00E995B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CC64341D17A9E8BA00E995B3 /* VTPageController Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VTPageController Demo-Info.plist"; sourceTree = "<group>"; };
+		CC64341D17A9E8BA00E995B3 /* VXTPageController Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VXTPageController Demo-Info.plist"; sourceTree = "<group>"; };
 		CC64341F17A9E8BA00E995B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC64342117A9E8BA00E995B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC64342317A9E8BA00E995B3 /* VTPageController Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VTPageController Demo-Prefix.pch"; sourceTree = "<group>"; };
+		CC64342317A9E8BA00E995B3 /* VXTPageController Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VXTPageController Demo-Prefix.pch"; sourceTree = "<group>"; };
 		CC64342417A9E8BA00E995B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC64342517A9E8BA00E995B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CC64342717A9E8BA00E995B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -46,8 +46,8 @@
 		CC64343C17AA183C00E995B3 /* page_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_active@2x.png"; sourceTree = "<group>"; };
 		CC64343D17AA183C00E995B3 /* page_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_inactive.png; sourceTree = "<group>"; };
 		CC64343E17AA183C00E995B3 /* page_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_inactive@2x.png"; sourceTree = "<group>"; };
-		CC64344317AA1E5D00E995B3 /* VTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPageControl.h; sourceTree = "<group>"; };
-		CC64344417AA1E5D00E995B3 /* VTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPageControl.m; sourceTree = "<group>"; };
+		CC64344317AA1E5D00E995B3 /* VXTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXTPageControl.h; sourceTree = "<group>"; };
+		CC64344417AA1E5D00E995B3 /* VXTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXTPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +67,9 @@
 		CC64340917A9E8BA00E995B3 = {
 			isa = PBXGroup;
 			children = (
-				CC64344317AA1E5D00E995B3 /* VTPageControl.h */,
-				CC64344417AA1E5D00E995B3 /* VTPageControl.m */,
-				CC64341B17A9E8BA00E995B3 /* VTPageController Demo */,
+				CC64344317AA1E5D00E995B3 /* VXTPageControl.h */,
+				CC64344417AA1E5D00E995B3 /* VXTPageControl.m */,
+				CC64341B17A9E8BA00E995B3 /* VXTPageController Demo */,
 				CC64341417A9E8BA00E995B3 /* Frameworks */,
 				CC64341317A9E8BA00E995B3 /* Products */,
 			);
@@ -78,7 +78,7 @@
 		CC64341317A9E8BA00E995B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC64341217A9E8BA00E995B3 /* VTPageController Demo.app */,
+				CC64341217A9E8BA00E995B3 /* VXTPageController Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +93,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CC64341B17A9E8BA00E995B3 /* VTPageController Demo */ = {
+		CC64341B17A9E8BA00E995B3 /* VXTPageController Demo */ = {
 			isa = PBXGroup;
 			children = (
 				CC64342417A9E8BA00E995B3 /* AppDelegate.h */,
@@ -107,16 +107,17 @@
 				CC64343E17AA183C00E995B3 /* page_inactive@2x.png */,
 				CC64341C17A9E8BA00E995B3 /* Supporting Files */,
 			);
+			name = "VXTPageController Demo";
 			path = "VTPageController Demo";
 			sourceTree = "<group>";
 		};
 		CC64341C17A9E8BA00E995B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC64341D17A9E8BA00E995B3 /* VTPageController Demo-Info.plist */,
+				CC64341D17A9E8BA00E995B3 /* VXTPageController Demo-Info.plist */,
 				CC64341E17A9E8BA00E995B3 /* InfoPlist.strings */,
 				CC64342117A9E8BA00E995B3 /* main.m */,
-				CC64342317A9E8BA00E995B3 /* VTPageController Demo-Prefix.pch */,
+				CC64342317A9E8BA00E995B3 /* VXTPageController Demo-Prefix.pch */,
 				CC64342717A9E8BA00E995B3 /* Default.png */,
 				CC64342917A9E8BA00E995B3 /* Default@2x.png */,
 				CC64342B17A9E8BA00E995B3 /* Default-568h@2x.png */,
@@ -127,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC64341117A9E8BA00E995B3 /* VTPageController Demo */ = {
+		CC64341117A9E8BA00E995B3 /* VXTPageController Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC64343517A9E8BA00E995B3 /* Build configuration list for PBXNativeTarget "VTPageController Demo" */;
+			buildConfigurationList = CC64343517A9E8BA00E995B3 /* Build configuration list for PBXNativeTarget "VXTPageController Demo" */;
 			buildPhases = (
 				CC64340E17A9E8BA00E995B3 /* Sources */,
 				CC64340F17A9E8BA00E995B3 /* Frameworks */,
@@ -139,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = "VTPageController Demo";
+			name = "VXTPageController Demo";
 			productName = "VTPageController Demo";
-			productReference = CC64341217A9E8BA00E995B3 /* VTPageController Demo.app */;
+			productReference = CC64341217A9E8BA00E995B3 /* VXTPageController Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +154,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Malarkey Software";
 			};
-			buildConfigurationList = CC64340D17A9E8BA00E995B3 /* Build configuration list for PBXProject "VTPageController Demo" */;
+			buildConfigurationList = CC64340D17A9E8BA00E995B3 /* Build configuration list for PBXProject "VXTPageController Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC64341117A9E8BA00E995B3 /* VTPageController Demo */,
+				CC64341117A9E8BA00E995B3 /* VXTPageController Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +198,7 @@
 				CC64342217A9E8BA00E995B3 /* main.m in Sources */,
 				CC64342617A9E8BA00E995B3 /* AppDelegate.m in Sources */,
 				CC64342F17A9E8BA00E995B3 /* ViewController.m in Sources */,
-				CC64344517AA1E5D00E995B3 /* VTPageControl.m in Sources */,
+				CC64344517AA1E5D00E995B3 /* VXTPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +284,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VTPageController Demo/VTPageController Demo-Prefix.pch";
-				INFOPLIST_FILE = "VTPageController Demo/VTPageController Demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VTPageController Demo/VXTPageController Demo-Prefix.pch";
+				INFOPLIST_FILE = "VTPageController Demo/VXTPageController Demo-Info.plist";
+				PRODUCT_NAME = "VXTPageController Demo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -294,9 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VTPageController Demo/VTPageController Demo-Prefix.pch";
-				INFOPLIST_FILE = "VTPageController Demo/VTPageController Demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VTPageController Demo/VXTPageController Demo-Prefix.pch";
+				INFOPLIST_FILE = "VTPageController Demo/VXTPageController Demo-Info.plist";
+				PRODUCT_NAME = "VXTPageController Demo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -304,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC64340D17A9E8BA00E995B3 /* Build configuration list for PBXProject "VTPageController Demo" */ = {
+		CC64340D17A9E8BA00E995B3 /* Build configuration list for PBXProject "VXTPageController Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC64343317A9E8BA00E995B3 /* Debug */,
@@ -313,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC64343517A9E8BA00E995B3 /* Build configuration list for PBXNativeTarget "VTPageController Demo" */ = {
+		CC64343517A9E8BA00E995B3 /* Build configuration list for PBXNativeTarget "VXTPageController Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC64343617A9E8BA00E995B3 /* Debug */,

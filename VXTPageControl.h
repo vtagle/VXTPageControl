@@ -10,7 +10,7 @@
 #import <UIKit/UIControl.h>
 #import <UIKit/UIKitDefines.h>
 
-@interface VTPageControl : UIControl
+@interface VXTPageControl : UIControl
 
 /*
  Replicate the original functions from UIPageControl. 
