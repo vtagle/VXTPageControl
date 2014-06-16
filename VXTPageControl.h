@@ -41,9 +41,9 @@
 - (void)updateCurrentPageDisplay;
 - (CGSize)sizeForNumberOfPages: (NSInteger)pageCount;
 
-@property (nonatomic, assign) CGFloat spaceBetweenIndicators; 
-@property (nonatomic, strong) UIImage* activeImage;
-@property (nonatomic, strong) UIImage* inactiveImage;
+@property (nonatomic, assign) CGFloat spaceBetweenIndicators;   /// The spacing in points between the page indicator images. 
+@property (nonatomic, strong) UIImage* activeImage;             /// The image used to show the current page. 
+@property (nonatomic, strong) UIImage* inactiveImage;           /// The image used to show the other pages. 
 
 @end
 
